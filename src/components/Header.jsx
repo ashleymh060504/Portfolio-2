@@ -1,10 +1,11 @@
 import React from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <Navbar expand="lg" style={{ backgroundColor: 'FFCDB2' }} variant="dark">
-      <Container>
+    <Navbar expand="lg" style={{ backgroundColor: '#FFCDB2', width: '100%', position: 'relative' }} variant="light">
+      <Container fluid>
         <Navbar.Brand href="#" style={{ color: '#6D6875', fontWeight: 'bold' }}>
           Ashley Hayes
         </Navbar.Brand>
