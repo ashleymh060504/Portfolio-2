@@ -1,24 +1,17 @@
 import { Outlet } from "react-router-dom";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div>
-      <Outlet />
+      <Header />
+      <section>
+        <Outlet />
+      </section>
+      <Footer />
     </div>
   );
 }
-
-//   return (
-//     <Router>
-//       <Header />
-//       <Routes>
-//         <Route path="/" element={<Home />} />
-//         <Route path="/about" element={<About />} />
-//         <Route path="/portfolio" element={<Portfolio />} />
-//         <Route path="/contact" element={<Contact />} />
-//       </Routes>
-//     </Router>
-//   );
-// };
 
 export default App;

@@ -6,7 +6,6 @@ import App from './App.jsx';
 import About from './pages/About.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Contact from './pages/Contact.jsx';
-import Home from './pages/Home.jsx';
 import Portfolio from './pages/Portfolio.jsx';
 
 const BrowserRouter = createBrowserRouter([
@@ -16,11 +15,7 @@ const BrowserRouter = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Home />,
-      },
-      {
-        path: 'about',
-        element: <About />,     
+        element: <About />,
       },
       {
         path: 'portfolio',
