@@ -1,5 +1,5 @@
 import React from "react";
-import '../index.css';
+import '../styles/index.css';
 import githubLogo from '../assets/github-mark.jpeg';
 import linkedinLogo from '../assets/LI-Logo.png';
 

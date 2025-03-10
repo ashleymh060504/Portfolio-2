@@ -1,4 +1,4 @@
-import "../index.css";
+import "../styles/index.css";
 import profilePic from "../assets/340FC48C-E8C4-49B3-88B7-72E258117515_1_201_a.jpeg";
 
 function About () {
