@@ -83,14 +83,19 @@ footer {
   z-index: -1;
 }
 
-.background-image h3, h5 {
+.background-image h3, .background-image h5 {
   position: relative; 
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
   color: white;
 }
-
+.background-image h4, .background-image h6 {
+  position: relative; 
+  text-align: left;
+  margin-bottom: 20px;
+  color: white;
+}
 .background-image p {
   text-align: left;
   text-indent: 50px;
@@ -102,10 +107,40 @@ footer {
   margin-bottom: 20px;
 }
 
+.background-image aside {
+  margin: 20px;
+  margin-right: 200px;
+  padding: 20px;
+  justify-content: right;
+  align-items: right;
+  text-align: right;
+}
+
 .background-image section {
   margin: 20px;
-  margin-right: 20px;
+  margin-left: 20px;
   padding: 20px;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+}
+
+.background-image a {
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #202328;
+}
+
+.background-image :hover {
+  color: #FFB4A2;
+}
+
+.background-image .resume-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .title-container {
@@ -119,7 +154,7 @@ footer {
 .profile-image {
   margin-top: 10px;
   margin-bottom: 10px;
-  width: 60px;
+  width: 50px;
   height: auto;
   border-radius: 25%;
 }

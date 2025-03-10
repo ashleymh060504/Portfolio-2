@@ -33,7 +33,12 @@ function ContactForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log({ firstName, lastName, email, message });
-  }
+
+    setFirstName('');
+    setLastName('');
+    setEmail('');
+    setMessage('');
+  };
 
   return (
     <form onSubmit={handleSubmit} className="contact-form">
