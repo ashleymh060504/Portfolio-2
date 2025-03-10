@@ -4,10 +4,10 @@
   font-weight: 400;
   --primary-color: #FFB4A2;
   --secondary-color: #B5838D;
-  --background-color: #E5989B;
+  --background-color: #202328;
   --accent-color: #6D6875;
   
-  color: black;
+  color: #818895;
   
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -54,6 +54,79 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+footer {
+  margin-top: 4em;
+  text-align: center;
+  background-color: #202328;
+}
+
+.background-image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.background-image::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('./assets/IMG_9442.jpg');
+  background-size: cover;
+  background-position: top;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.background-image h3 {
+  position: relative; /* To keep it above the background */
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.background-image p {
+  text-align: left;
+  text-indent: 50px;
+  letter-spacing: 3px;
+  font-size: 18px;
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.background-image section {
+  margin: 20px;
+  margin-right: 20px;
+  padding: 20px;
+}
+.background-image {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; 
+  text-align: center;
+}
+
+.profile-image {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 60px;
+  height: auto;
+  border-radius: 25%;
 }
 
 @media (prefers-color-scheme: light) {

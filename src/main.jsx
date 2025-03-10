@@ -7,6 +7,7 @@ import About from './pages/About.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Contact from './pages/Contact.jsx';
 import Portfolio from './pages/Portfolio.jsx';
+import Resume from './pages/Resume.jsx';
 
 const BrowserRouter = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const BrowserRouter = createBrowserRouter([
       {
         path: 'contact',
         element: <Contact />,
+      },
+      {
+        path: 'resume',
+        element: <Resume />,
       }
     ]
   }

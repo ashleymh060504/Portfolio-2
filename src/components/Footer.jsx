@@ -1,16 +1,22 @@
-import React from 'react';
-import { Container } from 'react-bootstrap';
+import React from "react";
+import '../index.css';
+import githubLogo from '../assets/github-mark.jpeg';
+import linkedinLogo from '../assets/LI-Logo.png';
 
-const Footer = () => {
+function Footer() {
   return (
-    <footer style={{ backgroundColor: '#bc9a93', color: '#202328', padding: '1rem', marginTop: '5rem' }}>
-      <Container className="text-center">
-        <p className="mb-0">
-          &copy; {new Date().getFullYear()} Ashley Hayes <a href="https://github.com/ashleymh060504">Github</a> <a href="https://www.linkedin.com/in/ashley-hayes-70654a261/">LinkedIn</a>
-        </p>
-      </Container>
+    <footer>
+      <p style={{color: '#FFB4A2'}}>&copy; 2025 Ashley Hayes<span> </span>
+      <a href="https://github.com/ashleymh060504" target="_blank" rel="noopener noreferrer">
+                <img src={githubLogo} alt="GitHub Logo" style={{ width: '20px', marginLeft: '8px' }} />
+      </a>
+      <a href="https://www.linkedin.com/in/ashley-hayes-060504o09a06c08f04" target="_blank" rel="noopener noreferrer">
+                <img src={linkedinLogo} alt="LinkedIn Logo" style={{ width: '60px', marginLeft: '8px' }} />
+      </a>
+      </p>
+      
     </footer>
   );
-};
+}
 
 export default Footer;
