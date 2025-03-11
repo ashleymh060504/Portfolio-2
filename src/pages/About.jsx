@@ -1,9 +1,9 @@
-import "../styles/index.css";
+import "../styles/About.css";
 import profilePic from "../assets/340FC48C-E8C4-49B3-88B7-72E258117515_1_201_a.jpeg";
 
 function About () {
   return (
-    <div className="background-image">
+    <div className="about-background-image">
       <div className="title-container">
         <h3>About Me</h3>
         <img src={profilePic} alt="Developer Photo" className="profile-image" />

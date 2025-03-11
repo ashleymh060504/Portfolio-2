@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <Navbar expand="lg" style={{ backgroundColor: '#202328', width: '100%', position: 'relative' }} variant="light">
       <Container fluid>
-        <Navbar.Brand href="#" style={{ color: '#bc9a93', fontWeight: 'bold', fontSize: '3rem' }}>
+        <Navbar.Brand href="/" style={{ color: '#bc9a93', fontWeight: 'bold', fontSize: '3rem' }}>
           Ashley Hayes
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
