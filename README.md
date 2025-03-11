@@ -15,6 +15,5 @@ On the "Portfolio" page, you can click on with the deployed link or the GitHub r
 On the "Contact" page you can either complete the form to send me an email (COMING SOON!) or you can simply email me directly with the address provided at the bottom. 
 
 On the "Resume" page, you will find a list of highlighted, but not exhaustive, proficiencies as well as a link to download my resume. 
-
-    ![Screenshot of Portfolio Page](./src/assets/portfolio-screenshot.png)
+![Screenshot of Portfolio Page](./src/assets/portfolio-screenshot.png)
 
